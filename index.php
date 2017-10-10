@@ -5,7 +5,7 @@
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
+  <div class="w3-display-middle" style="white-space:nowrap; top: 17%;">
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">FAM<span> CREATIONS</span><span class="w3-hide-small"> PHOTOGRAPHY</span>
   </div>
 </div>
@@ -59,7 +59,7 @@
 
   <div class="w3-col m3">
 
-    <img src="images/36.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    <img src="images/41.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
 
   </div>
 
@@ -75,7 +75,7 @@
 
   <div class="w3-col m3">
 
-    <img src="images/47.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    <img src="images/42.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
 
   </div>
 

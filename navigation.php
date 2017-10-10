@@ -10,14 +10,14 @@
 
     </a>
 
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#home" class="w3-bar-item w3-button" style="color: #e3405d;">HOME</a>
 
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small" style="color: #e3405d;"><i class="fa fa-user"></i> ABOUT</a>
 
-    <a href="portfolio.php" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-camera"></i> PHOTO</a>
+    <a href="portfolio.php" class="w3-bar-item w3-button w3-hide-small" style="color: #e3405d;"><i class="fa fa-camera"></i> PHOTO</a>
 
-    <a href="#video" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-play"></i> VIDEO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#video" class="w3-bar-item w3-button w3-hide-small" style="color: #e3405d;"><i class="fa fa-play"></i> VIDEO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small" style="color: #e3405d;"><i class="fa fa-envelope"></i> CONTACT</a>
 
   </div>
 
@@ -29,7 +29,9 @@
 
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
 
-    <a href="portfolio.php" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="portfolio.php" class="w3-bar-item w3-button" onclick="toggleFunction()">PHOTOS</a>
+
+    <a href="#video" class="w3-bar-item w3-button" onclick="toggleFunction()">VIDEO SAMPLES</a>
 
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
 
