@@ -1,0 +1,155 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+
+body, html {
+
+    height: 100%;
+
+    color: #777;
+
+    line-height: 1.8;
+
+}
+
+
+
+/* Create a Parallax Effect */
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+
+    background-attachment: fixed;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+}
+
+
+
+/* First image (Logo. Full height) */
+
+.bgimg-1 {
+
+    background-image: url('../images/view.jpg');
+
+    min-height: 100%;
+
+}
+
+
+
+/* Second image (Portfolio) */
+
+.bgimg-2 {
+
+    background-image: url("../images/chairs.jpg");
+
+    min-height: 400px;
+
+}
+
+
+
+/* Third image (Contact) */
+
+.bgimg-3 {
+
+    background-image: url("../images/bengls.jpg");
+
+    min-height: 400px;
+
+}
+
+
+
+.w3-wide {letter-spacing: 10px;}
+
+.w3-hover-opacity {cursor: pointer;}
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+
+        background-attachment: scroll;
+
+    }
+
+}
+
+  #BUTTON_1 {
+
+    color: rgb(76, 175, 80);
+
+    cursor: pointer;
+
+    height: 34px;
+
+    text-decoration: none solid rgb(76, 175, 80);
+
+    text-size-adjust: 100%;
+
+    touch-action: manipulation;
+
+    vertical-align: middle;
+
+    white-space: nowrap;
+
+    width: 240.797px;
+
+    column-rule-color: rgb(76, 175, 80);
+
+    perspective-origin: 120.391px 17px;
+
+    transform-origin: 120.391px 17px;
+
+    user-select: none;
+
+    caret-color: rgb(76, 175, 80);
+
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+
+    border: 1px solid rgb(76, 175, 80);
+
+    font: normal normal normal normal 14px / 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    margin: 15px 0px 0px;
+
+    outline: rgb(76, 175, 80) none 0px;
+
+    padding: 6px 12px;
+
+    transition: all 0.1s ease-in-out 0s;
+
+}/*#BUTTON_1*/
+
+    button#BUTTON_1:hover {
+
+    background: #4db151;
+
+    color: white;
+
+}
+
+a {
+
+    color: white;
+
+}
+
+@media only screen and (max-width: 600px) {
+    #media {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #media {
+        width: 50%;
+    }
+}
